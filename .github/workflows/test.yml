@@ -1,0 +1,29 @@
+name: AP - Test wordsearch Utility
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Make executable
+        run: make wordsearch
+
+      - name: Upload executable
+        uses: actions/upload-artifact@v4
+        with:
+          name: wordsearch Executable
+          path: ./wordsearch
+
+      - name: Run Word Search
+        run: ./wordsearch puzzle.txt < words.txt > solved.txt
+
+      - name: Upload Solved Text
+        uses: actions/upload-artifact@v4
+        with:
+          name: solved.txt
+          path: solved.txt
