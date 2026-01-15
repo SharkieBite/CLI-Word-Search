@@ -1,8 +1,3 @@
-/* Michael Mondaini, 400591695, November 20th, 2025
-*
-* Description: Contains the program that deals with checking the word grids for word matches. This file is coded in C.
-*/
-
 //Imports the necessary modules needed for the program
 #include <stdio.h>
 #include <stdbool.h>
