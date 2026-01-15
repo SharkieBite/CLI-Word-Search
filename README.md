@@ -1,9 +1,8 @@
-# Assignment: Array Processing Assignment
+# CLI Word Puzzle Engine
 
 
 **Name:** Michael Mondaini
 **Date:** November 20th, 2025
-**Course:** SFWRENG 2XC3 - Software Development Basics
 
 ---------------------------------------------------------
 
