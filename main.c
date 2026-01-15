@@ -1,8 +1,3 @@
-/* Michael Mondaini, 400591695, November 20th, 2025
-*
-* Description: Contains the main program that is initially ran, calls other functions for the program and frees all memory once program is ran. This file is coded in C.
-*/
-
 //Imports the necessary modules needed for the program
 #include <stdio.h>
 #include <stdbool.h>
