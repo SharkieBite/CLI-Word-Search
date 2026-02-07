@@ -1,7 +1,6 @@
 # CLI Word Puzzle Engine
 
 
-**Name:** Michael Mondaini
 **Date:** November 20th, 2025
 
 ---------------------------------------------------------
